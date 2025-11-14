@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Brain, Rocket, GaugeCircle, Sparkles } from 'lucide-react'
+import { Brain, Rocket, GaugeCircle, Zap } from 'lucide-react'
 
 const items = [
   {
@@ -18,8 +18,8 @@ const items = [
     desc: 'From idea to live test in minutes. Ship more learnings, more often.'
   },
   {
-    icon: Sparkles,
-    title: 'Personalized Delivery',
+    icon: Zap,
+    title: 'Edge Personalization',
     desc: 'Dynamic creative adapts by segment, behavior, and context — at the edge.'
   }
 ]
@@ -34,9 +34,9 @@ export default function Capabilities() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ delay: i * 0.05, duration: 0.5 }}
-          className="rounded-xl border border-white/10 bg-white/5 p-6 hover:bg-white/10 transition group"
+          className="rounded-xl border border-white/10 bg-white/[0.06] p-6 hover:bg-white/[0.1] transition group"
         >
-          <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-fuchsia-600 to-indigo-600 grid place-items-center mb-4 ring-1 ring-white/20">
+          <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-sky-500 to-blue-600 grid place-items-center mb-4 ring-1 ring-white/20 shadow-[0_0_30px_rgba(56,189,248,0.35)]">
             <Icon className="h-5 w-5 text-white" />
           </div>
           <h3 className="text-white font-semibold text-lg">{title}</h3>

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Menu, X, Sparkles } from 'lucide-react'
+import { Menu, X, Zap } from 'lucide-react'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -14,11 +14,11 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/30 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
-          <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-fuchsia-500 to-indigo-500 grid place-items-center ring-1 ring-white/20">
-            <Sparkles className="h-5 w-5 text-white drop-shadow" />
+          <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-sky-500 to-blue-600 grid place-items-center ring-1 ring-white/20 shadow-[0_0_30px_rgba(56,189,248,0.35)]">
+            <Zap className="h-5 w-5 text-white drop-shadow" />
           </div>
           <span className="text-white text-lg font-semibold tracking-tight">
-            j10<span className="text-fuchsia-400">effect</span>
+            j10<span className="text-sky-400">effect</span>
           </span>
         </a>
 
@@ -31,7 +31,7 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="#contact" className="px-4 py-2 rounded-md bg-white/10 hover:bg-white/20 text-white text-sm transition border border-white/10">
+          <a href="#contact" className="px-4 py-2 rounded-md bg-white/10 hover:bg-white/15 text-white text-sm transition border border-white/10">
             Start a project
           </a>
         </div>

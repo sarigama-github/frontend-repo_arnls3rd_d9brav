@@ -49,7 +49,7 @@ function App() {
       <footer className="border-t border-white/10 bg-[#05030B] py-10">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between text-white/60 text-sm">
           <p>© {new Date().getFullYear()} j10effect. All rights reserved.</p>
-          <p>Built with autonomous creativity.</p>
+          <p>Built with electric precision.</p>
         </div>
       </footer>
     </div>
